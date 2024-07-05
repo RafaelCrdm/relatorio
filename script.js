@@ -24,9 +24,3 @@ const countDate = new Date('July 16, 2024 20:00:00').getTime();
     setInterval(function () {
       newYear();
     }, 1000);
-
-    // Newsletter
-    function newsToggle() {
-      var newsletter = document.querySelector('.newsletter');
-      newsletter.classList.toggle('active');
-    }
